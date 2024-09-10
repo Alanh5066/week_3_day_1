@@ -41,12 +41,6 @@
 
 
 
-
-
-
-
-
-
 # # Review
 # create variables for the following :
 # 1. age
@@ -54,14 +48,31 @@
 # 3. song
 # 4. food
 # 5. number
-
-
+#create variables for the following :
+#1. age
+age=15 #integer variable
+#2. name
+name = "alan" #string variable
+# 3. song
+song = "poison"
+food="apples" #string variables
+number = "10" #integer variable
 # #now include the variables you just made print in the following...
 
 
 # Once upon a time, there was a [age] old coder named [name].
+#concatenation --- + around your variables
+print("Once upon a time, there was a" + str(age) + "old coder named" +name + ".")
+print("there was a number" + str(number + "as well")
+      #put the age  and number in a new sentence
+      date_of_birth = 2021
+      number2 = 123
+      number3 =123.456 
+      number4 =123.33
+      number5 = 4555
+      #create a sentence of all this above
 
-
+      print(f"the date of birth is {date_of_birth} and number 2 is {number2} and "
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
 
 
