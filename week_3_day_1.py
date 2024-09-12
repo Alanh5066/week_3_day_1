@@ -63,16 +63,16 @@ number = "10" #integer variable
 # Once upon a time, there was a [age] old coder named [name].
 #concatenation --- + around your variables
 print("Once upon a time, there was a" + str(age) + "old coder named" +name + ".")
-print("there was a number" + str(number + "as well")
+print("there was a number" + str(number + "as well"))
       #put the age  and number in a new sentence
-      date_of_birth = 2021
-      number2 = 123
-      number3 =123.456 
-      number4 =123.33
-      number5 = 4555
-      #create a sentence of all this above
+date_of_birth = 2021
+number2 = 123
+number3 =123.456 
+number4 =123.33
+number5 = 4555
+#create a sentence of all this above
 
-      print(f"the date of birth is {date_of_birth} and number 2 is {number2} and "
+print(f"the date of birth is {date_of_birth} and number 2 is {number2} and ")
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
 
 
@@ -231,17 +231,17 @@ print("the ceil of 3.8 is", ceil(3.8))
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
-name= input("what is your name")
-print("hello",name)
+name = input("what is your name")
+print("hello", name )
 # # basic math calculator
 # #ask the user for 2 numbers
-num1= int (input("enter a number:") )
-num2= int (input("enter another number:") )
+num1 = int (input("enter a number:") )
+num2 = int (input("enter another number:") )
 # # print out a statement where you:
 # # add them together
 print(num1 + num2)
 # #multiply
-print(num1 x num2)
+print(num1 * num2)
 # # find the max number
 print(max(num1,num2))
 # # find the remainder of the numbers
